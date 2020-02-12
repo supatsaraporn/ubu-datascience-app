@@ -11,7 +11,7 @@ def index(req):
     X4 = 0.0
     X5 = 0.0
     X6 = 0.0
-    X = 'สแดงผล'
+    X = 'show'
     if req.method == 'POST':
         print('เขา POST มา')
         X1 = float(req.POST['X1'])

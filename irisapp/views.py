@@ -5,6 +5,8 @@ from django.http import JsonResponse
 from .models import Species, Feature
 
 # Create your views here.
+def web():
+    return ('irisapp/web.html')
 def index(req):
     result = Species.objects.get(pk=1)
     sepal_length = 0.0
